@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="450dp"
+    android:layout_height="315dp"
+    android:background="@null"
+    android:orientation="vertical" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <ImageView
+            android:id="@+id/imgDesc"
+            android:layout_width="450dp"
+            android:layout_height="315dp" />
+
+        <ImageButton
+            android:id="@+id/btnSkip_to_game"
+            android:layout_width="80dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="340dp"
+            android:layout_marginTop="250dp"
+            android:background="@null"
+            />
+
+    </FrameLayout>
+
+</LinearLayout>
